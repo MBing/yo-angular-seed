@@ -1,10 +1,12 @@
 'use strict';
 
 angular.module('yoAngularSeedApp')
-  .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+  .controller('MainCtrl', ['$scope', function(s) {
+
+  }])
+  .controller('ViewCtrl1', ['$scope', function(s) {
+
+  }])
+  .controller('ViewCtrl2', ['$scope', function(s) {
+
+  }]);
